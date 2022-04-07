@@ -1,0 +1,252 @@
+@font-face {
+    font-family: lato;
+    src: url("../fonts/Lato-Bold.ttf");
+    src:url("../fonts/Lato-Regular.ttf")
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: lato;
+    background-color: #FCE7F0;
+}
+#navbar{
+    /* width: 100%; */
+    height: 60px;
+    background-color: #572D93;
+    /* border: 2px solid red; */
+   
+    
+}
+#logo{
+    height: 43px;
+    width: 170px;
+    padding: 3px;
+}
+#logotd{
+    width: 770px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+#iskillers{
+    background-image: url("../images/header_image.png");
+    position: absolute;
+    background-size: cover;
+    /* width: 100%; */
+    height: 375px;
+    background-repeat: none;   
+    /* border: 2px solid red;   */
+
+}
+#heading1{
+    font-size: 40px;
+    margin-left: 550px;
+    margin-top: 100px;
+    color: #A157A4;  
+
+}
+#para1{
+    margin-left: 550px;
+    margin-top:10px;
+    margin-right: 40px;
+}
+button{
+    border: none;
+    outline: none;
+    background-color: #A157A4;
+    width: 80px;
+    height:40px;
+    color:white;
+    font-size:medium;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 760px;
+    font-size: larger;
+    margin-top: 40px;
+    float: right;
+    margin-right: 100px;
+}
+#main-tc{
+    /* border: 2px solid red; */
+    width: 100%;
+}
+#training-courses{
+    background-color: #8F007E;
+    /* width: 100%; */
+    height: 300px;
+    margin-top: 375px;
+    border: 1px solid red;
+
+}
+#heading2{
+    text-align: center;
+    color: white;
+    padding:10px;
+}
+.card{
+    width: 300px;
+    height: 80px;
+    border: 2px solid red;
+    /* float: left; */
+    /* margin-left: 80px; */
+    margin-top: 20px;
+    height: 150px;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    /* display: flex; */
+    
+}
+.small-icon{
+    width: 30px;
+    height: 30px;
+}
+.left{
+    margin-top: 20px;
+    float:left; 
+    color: gray;
+    font-size: 12px;
+}
+.right{
+    margin-top:20px;
+    float:right;
+    color: gray;
+    font-size: 12px;
+}
+#intro{
+    /* border: 2px solid red; */
+    /* width: 100%; */
+    height: 500px;
+}
+#five-points{
+    margin-left: 50px;
+    margin-top: 100px;
+    height: 400px;
+    width: 400px;
+    float:left;
+    position: absolute;
+    bottom: 50;
+}
+#welcome{
+    margin-top:80px;
+    margin-left:500px;
+}
+#welcomepara{
+text-align: justify;
+margin-left: 520px;
+margin-right: 130px;
+margin-top: 30px;
+font-size: 18px;
+}
+#mission{
+    /* border: 1px solid red; */
+    /* width: 100%;     */
+    height: 500px;
+}
+#tpm{
+margin-left: 100px;
+margin-top: 40px;
+}
+#missionpara{
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size:18px;
+    margin-right: 600px;
+    text-align: justify;
+}
+#mission-pic{
+    width: 400px;
+    height: 400px;
+    float: right;
+    margin-right: 100px;   
+}
+#reasons{
+    /* width: 100%; */
+    /* border:1px solid red; */
+    height: 500px;
+}
+#reason-heading{
+    margin-left: 100px;
+    margin-top: 40px;  
+}
+#mobile{
+    margin-left: 50px;
+    margin-top: 100px;
+    height: 400px;
+    width: 400px;
+    float:left;
+    position: absolute;
+    bottom: 50;
+}
+ul{
+    margin-left:600px;
+    list-style-image: url(../images/bulletnew.png);
+    
+
+    
+}
+ul li{
+    font-size: 19px;
+    text-align: justify;
+    margin-right:130px; 
+    padding:3px;   
+}
+#footer{
+    /* background-color: 2px solid red; */
+    /* width: 100%; */
+    background-color: #572D93;
+    color: white;
+}
+.social-media-icons{
+    width: 30px;
+    height: 25px;  
+}
+#fbicon{
+    margin-left:100px;
+}
+.address-icons{
+width: 30px;
+height: 25px;
+}
+#abtprogram{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+#para-h3{
+    margin-left:100px;
+    margin-right:600px;
+    text-align: justify;
+    opacity: 0.7;
+    font-size: 15px;
+}
+#cntct{
+    margin-right: 100px;
+}
+.address{
+    margin-right: 300px;
+}
+#copyright{
+    /* border: 2px solid red; */
+    width: 100%;
+    background-color: #8F007E;
+    text-align: center;
+    color: white;
+    height: 30px;
+}
+#card-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#main-doc{
+    width: 100%;
+}
+@media only screen and (max-width: 1189px){
+    #main-tc{
+        margin-top: 50px;
+    }
+}
